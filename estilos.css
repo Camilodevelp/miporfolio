@@ -51,6 +51,30 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+/*quienSoy*/
+
+.soy{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    /* margin: 50px; */
+}
+
+.nleft{
+    padding: 50px;
+}
+
+.nright{
+    height: 509px;
+    background-image: url(./imagenes/apple-g192603282_640.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.soy h2{
+    margin-left: 45px;
+}
 
 /*proyectos*/
     
