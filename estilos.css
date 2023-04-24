@@ -1,0 +1,215 @@
+.navbar {
+    background-color: white;
+    padding-bottom: 0;
+}
+
+.navbar-toggler i{
+    color: black;
+}
+
+.navbar .nav-link{
+    color: black !important;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 10px;
+    /* text-align: left; */
+}
+
+.navbar .nav-link:hover{
+    background-color: #333;
+    color: white !important;
+}
+
+.jumbotron1 {
+    background-image: url(./imagenes/Negro\ Blanco\ Fotografía\ Contabilidad\ Servicio\ Sitio\ Web.png);
+    background-position: center;
+    background-size: cover;
+    /* height: 500px; */
+    height: calc(89vh - 80px);
+    color: white;
+    text-shadow: 0 0 #333;
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+
+
+.footer1 {
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    height: 70px;
+    text-align: center;
+}
+
+.footer2{
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    height: 70px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/*proyectos*/
+    
+.bienvenida{
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}    
+
+.tarjetas{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3.5em;
+    flex-wrap: wrap;
+}
+
+.card{
+    /* height: 450px; */
+    flex-basis: 280px;
+    max-width: 450px;
+    background-color: black;
+    border: 3px solid #333;
+    flex-grow: 1;
+}
+
+.card-img{
+    height: 200px;
+    background-image: url(./imagenes/proyectos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card-titulo{
+    color: white;
+    height: 125px;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-enlace{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-enlace a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.regreso a{
+    text-decoration: none;
+    color: white;
+}
+
+.regreso i:hover{
+    color: blue;
+}
+
+
+/*Trabajemosjuntos*/
+
+.juntos {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.ileft {
+    background-image: url(./imagenes/Saludo.png);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+}
+
+.iright h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.iright {
+    padding: 40px;
+    padding-left: 60px;
+}
+
+/*testimonio*/
+
+.test{
+    background-color: white;
+    color: black;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+.boxtest{
+    flex-basis: 280px;
+    max-width: 450px;
+    background-color: black;
+    border: 3px solid #333;
+    flex-grow: 1;
+}
+
+.boxtest-img{
+    height: 200px;
+    width: 180px;
+    background-image: url(./imagenes/persona.jpg);
+    background-size: cover;
+    background-position: left;
+    margin: 20px;
+}
+
+.boxtest-titulo{
+    color: white;
+    height: 70px;
+    display: flex;
+    margin-top: 20px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtest-enlace{
+    height: auto;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    flex-direction: column;
+}
+
+.boxtest-enlace a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+
+
+}
+
+.testimag{
+    height: 250px;
+    width: 30%;
+    border: 3px solid black;
+    background-image: url(./imagenes/persona.jpg);
+    background-size: cover;
+}
