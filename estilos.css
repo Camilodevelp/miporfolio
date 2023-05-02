@@ -1,239 +1,230 @@
+@charset "UTF-8";
 .navbar {
-    background-color: white;
-    padding-bottom: 0;
+  background-color: whitegit;
+  padding-bottom: 0;
 }
 
-.navbar-toggler i{
-    color: black;
+.navbar-toggler i {
+  color: black;
 }
 
-.navbar .nav-link{
-    color: black !important;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-radius: 10px;
-    /* text-align: left; */
+.navbar .nav-link {
+  color: black !important;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-radius: 10px;
+  /* text-align: left; */
 }
 
-.navbar .nav-link:hover{
-    background-color: #333;
-    color: white !important;
+.navbar .nav-link:hover {
+  background-color: #333;
+  color: whitegit !important;
 }
 
 .jumbotron1 {
-    background-image: url(./imagenes/Negro\ Blanco\ Fotografía\ Contabilidad\ Servicio\ Sitio\ Web.png);
-    background-position: center;
-    background-size: cover;
-    /* height: 500px; */
-    height: calc(89vh - 80px);
-    color: white;
-    text-shadow: 0 0 #333;
-    border-radius: 0;
-    margin-bottom: 0;
-
+  background-image: url(./imagenes/Negro\ Blanco\ Fotografía\ Contabilidad\ Servicio\ Sitio\ Web.png);
+  background-position: center;
+  background-size: cover;
+  /* height: 500px; */
+  height: calc(89vh - 80px);
+  color: whitegit;
+  text-shadow: 0 0 #333;
+  border-radius: 0;
+  margin-bottom: 0;
 }
-
 
 .footer1 {
-    background-color: black;
-    font-size: 30px;
-    color: white;
-    height: 70px;
-    text-align: center;
+  background-color: black;
+  font-size: 30px;
+  color: whitegit;
+  height: 70px;
+  text-align: center;
 }
 
-.footer2{
-    background-color: black;
-    font-size: 30px;
-    color: white;
-    height: 70px;
-    text-align: center;
-    font-family: 'DM Sans', sans-serif;
+.footer2 {
+  background-color: black;
+  font-size: 30px;
+  color: whitegit;
+  height: 70px;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
 }
 
 /*quienSoy*/
-
-.soy{
-    width: 100%;
-    height: auto;
-    background-color: black;
-    color: white;
-    /* margin: 50px; */
+.soy {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: whitegit;
+  /* margin: 50px; */
 }
 
-.nleft{
-    padding: 50px;
+.nleft {
+  padding: 50px;
 }
 
-.nright{
-    height: 509px;
-    background-image: url(./imagenes/apple-g192603282_640.jpg);
-    background-position: center;
-    background-size: cover;
+.nright {
+  height: 509px;
+  background-image: url(./imagenes/apple-g192603282_640.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-.soy h2{
-    margin-left: 45px;
+.soy h2 {
+  margin-left: 45px;
 }
 
 /*proyectos*/
-    
-.bienvenida{
-    height: 100px;
-    margin: 20px;
-    font-size: 25px;
-}    
-
-.tarjetas{
-    width: 90%;
-    margin: 0 auto;
-    padding: 60px 0;
-    max-width: 1200px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 3.5em;
-    flex-wrap: wrap;
+.bienvenida {
+  height: 100px;
+  margin: 20px;
+  font-size: 25px;
 }
 
-.card{
-    /* height: 450px; */
-    flex-basis: 280px;
-    max-width: 450px;
-    background-color: black;
-    border: 3px solid #333;
-    flex-grow: 1;
+.tarjetas {
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 0;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3.5em;
+  flex-wrap: wrap;
 }
 
-.card-img{
-    height: 200px;
-    background-image: url(./imagenes/proyectos.jpg);
-    background-size: cover;
-    background-position: center;
+.card {
+  /* height: 450px; */
+  flex-basis: 280px;
+  max-width: 450px;
+  background-color: black;
+  border: 3px solid #333;
+  flex-grow: 1;
 }
 
-.card-titulo{
-    color: white;
-    height: 125px;
-    display: flex;
-    font-size: 50px;
-    align-items: center;
-    justify-content: center;
+.card-img {
+  height: 200px;
+  background-image: url(./imagenes/proyectos.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.card-enlace{
-    height: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card-titulo {
+  color: whitegit;
+  height: 125px;
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-.card-enlace a{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-
-
+.card-enlace {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.regreso a{
-    text-decoration: none;
-    color: white;
+.card-enlace a {
+  text-decoration: none;
+  color: whitegit;
+  font-size: 30px;
 }
 
-.regreso i:hover{
-    color: blue;
+.regreso a {
+  text-decoration: none;
+  color: whitegit;
 }
 
+.regreso i:hover {
+  color: blue;
+}
 
 /*Trabajemosjuntos*/
-
 .juntos {
-    height: auto;
-    width: 100%;
-    background-color: black;
-    color: white;
-}
-.ileft {
-    background-image: url(./imagenes/Saludo.png);
-    height: 550px;
-    background-size: cover;
-    background-position: center;
+  height: auto;
+  width: 100%;
+  background-color: black;
+  color: whitegit;
 }
 
-.iright h2{
-    text-align: center;
-    margin: 20px;
+.ileft {
+  background-image: url(./imagenes/Saludo.png);
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+}
+
+.iright h2 {
+  text-align: center;
+  margin: 20px;
 }
 
 .iright {
-    padding: 40px;
-    padding-left: 60px;
+  padding: 40px;
+  padding-left: 60px;
 }
 
 /*testimonio*/
-
-.test{
-    background-color: white;
-    color: black;
-    height: 115px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 16px;
-    font-size: 20px;
+.test {
+  background-color: whitegit;
+  color: black;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  font-size: 20px;
 }
 
-.boxtest{
-    flex-basis: 280px;
-    max-width: 450px;
-    background-color: black;
-    border: 3px solid #333;
-    flex-grow: 1;
+.boxtest {
+  flex-basis: 280px;
+  max-width: 450px;
+  background-color: black;
+  border: 3px solid #333;
+  flex-grow: 1;
 }
 
-.boxtest-img{
-    height: 200px;
-    width: 180px;
-    background-image: url(./imagenes/persona.jpg);
-    background-size: cover;
-    background-position: left;
-    margin: 20px;
+.boxtest-img {
+  height: 200px;
+  width: 180px;
+  background-image: url(./imagenes/persona.jpg);
+  background-size: cover;
+  background-position: left;
+  margin: 20px;
 }
 
-.boxtest-titulo{
-    color: white;
-    height: 70px;
-    display: flex;
-    margin-top: 20px;
-    font-size: 40px;
-    justify-content: center;
-    align-items: center;
+.boxtest-titulo {
+  color: whitegit;
+  height: 70px;
+  display: flex;
+  margin-top: 20px;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
-.boxtest-enlace{
-    height: auto;
-    display: flex;
-    padding: 40px;
-    align-items: center;
-    justify-content: flex-start;
-    color: white;
-    flex-direction: column;
+.boxtest-enlace {
+  height: auto;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  color: whitegit;
+  flex-direction: column;
 }
 
-.boxtest-enlace a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin: 20px;
-
-
+.boxtest-enlace a {
+  text-decoration: none;
+  color: whitegit;
+  font-size: 20px;
+  margin: 20px;
 }
 
-.testimag{
-    height: 250px;
-    width: 30%;
-    border: 3px solid black;
-    background-image: url(./imagenes/persona.jpg);
-    background-size: cover;
-}
+.testimag {
+  height: 250px;
+  width: 30%;
+  border: 3px solid black;
+  background-image: url(./imagenes/persona.jpg);
+  background-size: cover;
+}/*# sourceMappingURL=estilos.css.map */
