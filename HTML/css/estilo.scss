@@ -35,8 +35,7 @@ $color3: #333;
     text-shadow: 0 0 $color3;
     border-radius: 0;
     margin-bottom: 0;
-    padding: ;
-
+    
 }
 
 
@@ -87,7 +86,6 @@ $color3: #333;
 .tarjetas{
     width: 90%;
     margin: 0 auto;
-    padding: 60px 0;
     max-width: 1200px;
     min-height: 100vh;
     display: flex;
@@ -180,7 +178,7 @@ $color3: #333;
     height: 115px;
     display: flex;
     flex-direction: column;
-    margin-left: 16px;
+    margin: 16px;
     font-size: 20px;
 }
 
@@ -198,7 +196,7 @@ $color3: #333;
     background-image: url(./imagenes/persona.jpg);
     background-size: cover;
     background-position: left;
-    margin: 20px;
+    margin: 40px;
 }
 
 .boxtest-titulo{
